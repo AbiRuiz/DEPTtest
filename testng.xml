@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TestButtons">
+		<classes>
+			<class name="button.ButtonTest">
+				<methods>
+					<include name="testVerifyButtom" />
+				</methods>
+				<methods>
+					<include name="culturePageButton" />
+				</methods>
+				<methods>
+					<include name="servicesPageButton" />
+				</methods>
+				<methods>
+					<include name="insightsPageButton" />
+				</methods>
+				<methods>
+					<include name="careersPageButton" />
+				</methods>
+				<methods>
+					<include name="contactPageButton" />
+				</methods>
+				<methods>
+					<include name="IndustriesPageButton" />
+				</methods>
+				<methods>
+					<include name="PartnersPageButton" />
+				</methods>
+				<methods>
+					<include name="EventsPageButton" />
+				</methods>
+				<methods>
+					<include name="WhitepapersPageutton" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
